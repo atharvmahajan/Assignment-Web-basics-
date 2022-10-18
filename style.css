@@ -1,0 +1,170 @@
+/* Styling the header */
+
+#header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f2af90;
+    font-weight: 100;
+    box-sizing: border-box;
+    font-size: 40px;
+    text-align: center;
+    border-top: 10px solid black;
+    border-bottom: 10px solid rgb(20, 20, 25);
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    box-sizing: border-box;
+
+
+}
+/*----------Adding Glowing effect to the title---------------*/ 
+
+h1 span {
+
+    transition: 0.5s;
+
+}
+
+h1:hover span:nth-child(1) {
+    margin-right: 30px;
+}
+
+h1:hover span:nth-child(2) {
+    margin-right: 20px;
+}
+
+h1:hover span:nth-child(3) {
+    margin-right: 30px;
+}
+
+h1:hover span:nth-child(4) {
+    margin-right: 40px;
+}
+
+h1:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff,
+        0 0 160px #fff;
+
+}
+
+
+/*--------Setting a thumbnail icon to refresh------------*/
+
+#thumbnail {
+
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: -126px 17px 25px 30px;
+    border-radius: 30px;
+
+}
+
+/* --------Adding Background Image----------------- */
+
+body {
+    background-image: url(bgggggg.jpg);
+
+}
+
+/* -------------Styling navigation bar-------------  */
+
+#navigation-bar {
+    float: right;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-image: url(/BG.jpeg);
+
+
+
+}
+
+.links {
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+
+    border: 1px solid rgb(5, 6, 6);
+    border-radius: 11px;
+    padding: 1px 1px;
+    margin: 50px 50px;
+}
+
+
+
+
+/* -------------Styling BODY-------------- */
+
+.BG {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.container {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    line-height: 6em;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(14, 144, 110);
+    padding: 8px;
+
+
+}
+
+#span {
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 24px 43px 24px 21px;
+}
+
+.List-items {
+    list-style-type: lower-roman;
+    background-color: black;
+    font-style: initial;
+    box-sizing: border-box;
+    font-size: xx-large;
+    border: 10px solid black;
+    margin: 44px 1200px 77px 10px;
+    padding: 7px 7px 33px 89px;
+}
+
+#First {
+    margin: -661px 440px 0px 0px;
+    color: rgb(186, 229, 229);
+    float: right;
+    line-height: 2em;
+}
+
+#c {
+    color: rgb(14, 144, 110);
+    margin: -427px 663px 0px 0px;
+    float: right;
+    line-height: 2em;
+}
+
+#python {
+
+    color: rgb(186, 229, 229);
+    margin: -196px 300px 0px 0px;
+    float: right;
+    line-height: 2em;
+}
+
+/* -------- Footer-------*/
+.footer {
+    font-size: small;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    color: rgb(14, 144, 110);
+    background-color: black;
+}
